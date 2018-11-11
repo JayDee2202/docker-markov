@@ -1,0 +1,6 @@
+markov:
+  build: ./markov
+  restart: always
+  container_name: markov-bot
+  volumes:
+    - /data/markov_bot:/usr/src/app/markov
